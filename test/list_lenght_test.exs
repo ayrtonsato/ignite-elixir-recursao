@@ -6,6 +6,7 @@ defmodule ListLengthTest do
       list1 = [1, 2, 3, 4, 5, 6]
       list2 = [1, 2]
       list3 = [1, 2, 3, 4]
+      list4 = [1]
 
       assert ListLength.call(list1) == 6
       assert ListLength.call(list2) == 2
